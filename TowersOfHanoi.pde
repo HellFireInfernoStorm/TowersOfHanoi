@@ -85,10 +85,10 @@ void draw() {
     String txt = "Step Size: " + step_size;
     text(txt, width - (textWidth(txt) * 1.2), textAscent() * 1.5);
 
-    text("Discs: " + n_discs, 0, textAscent() * 1.5);
-    text("Swaps: " + swaps, 0, textAscent() * 1.5 * 2);
-    text("Stack depth : " + alg_stack.size(), 0, textAscent() * 1.5 * 3);
-    text("Max stack depth : " + max_stack_depth, 0, textAscent() * 1.5 * 4);
+    text("Discs: " + n_discs, (width * 0.02), textAscent() * 1.5);
+    text("Swaps: " + swaps, (width * 0.02), textAscent() * 1.5 * 2);
+    text("Stack depth : " + alg_stack.size(), (width * 0.02), textAscent() * 1.5 * 3);
+    text("Max stack depth : " + max_stack_depth, (width * 0.02), textAscent() * 1.5 * 4);
 }
 
 int towerTopDisc(int tower) {
