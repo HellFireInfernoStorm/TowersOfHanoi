@@ -2,6 +2,8 @@
 
 Visualize the recursive Towers of Hanoi algorithm.
 
+I was interested in visually understanding the recursive algorithm, that I learn for my DSA module. So I built this to allow me to step through each individual transition and display it visually.
+
 ### How It Works
 
 The program simulates a call stack of custom stack frame objects.
